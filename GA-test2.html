@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GA Code test page</title>
+<script>
+  (function(i,s,o,g,r,a,m){
+	  i['GoogleAnalyticsObject']=r;
+	  i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+			a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];
+			a.async=1;
+			a.src=g;
+			m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-153077-1', 'amc21.co.uk');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.1.', 'Click header button2.1', '' + document.URL + '');">Variable test 2.1</a><br />
+<br />
+<br />
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.2.', 'Click header button2.2', '" + document.URL + "');">Variable test 2.2</a><br />
+<br />
+<br />
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.3', 'Click header button2.3', 'document.URL');">Variable test 2.3</a><br />
+<br />
+<br />
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.4.', 'Click header button2.4', document.URL);">Variable test 2.4</a><br />
+<br />
+<br />
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.5.', 'Click header button2.5', "" + document.URL + "");">Variable test 2.5</a><br />
+<br />
+<br />
+<a href="#" onclick="ga('send', 'event', 'Get a quote2.6', 'Click header button2.6', "' + document.URL + '");">Variable test 2.6</a><br />
+</body>
+</html>

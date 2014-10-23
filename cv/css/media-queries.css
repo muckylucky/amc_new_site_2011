@@ -1,0 +1,12 @@
+@media screen and (max-width: 980px) {
+
+#wrapper {
+	width: 95%;
+}
+	
+#contact_left {float:left;clear:left;width:50%;margin-right:0}
+#contact_right {float:right;width:50%}
+#skills > li {width:30%;margin-right:3%}
+#skills > li:last-child {margin-right:0;float:right}
+
+}

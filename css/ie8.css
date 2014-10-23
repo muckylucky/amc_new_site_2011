@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#intro_thirds li {float:left;width:210px;margin:0 20px 18px 0;overflow:hidden;}
+
+#home_list_last {margin-right:0;clear:right}

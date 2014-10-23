@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	}
+	
+ol, ul {
+	list-style: none;
+	}
+
+blockquote, q {
+	quotes: none;
+	}
+
+:focus {
+	outline: 0;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+body {font-family:Helvetica, "Trebuchet MS", Arial, sans-serif;font-weight:100;font-size:100%;line-height:1.5em;margin:48px 86px;background:#fffce0;color:#333}
+p {margin-bottom:1em}
+
+h1, h2, h3, h4 {color:#555}
+h1 {font-size:38px;line-height:1em;vertical-align:top;margin-bottom:0;letter-spacing:-0.05em}
+h2 {font-size:26px;line-height:1em;margin-bottom:1em;letter-spacing:-0.03em}
+h3 {font-size:18px;text-transform:uppercase;line-height:18px;margin-bottom:0px}
+h4 {font-weight:bold}
+
+/*********************HTML5 ELEMENT BLOCK RESET*************************/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+sup {vertical-align:24%;font-size:80%}
+
+/*********************MAIN LAYOUT ELEMENTS*************************/
+#wrapper { 
+	width: 980px;
+	margin: 0 auto;
+	background: url(../images/3-col-bg.gif) 0 0 repeat-y;
+	overflow:auto;
+}
+
+#header {
+	height: 160px;
+	display:block;
+}
+#header h2 {font-weight:normal;}
+#name {margin-bottom:18px;width:312px;margin-right:22px}
+#header hgroup {float:left;clear:right}
+#header img {float:right}
+
+#content {
+	float: left;
+}
+/* 3x col = 312px width and 22px margins */
+#contact_left, #contact_right {font-size:12px;font-weight:400}
+#contact_left {float:left;width:156px;margin-right:22px}
+#contact_right {float:left;clear:right;width:156px;}
+
+#skills {float:left;clear:both;overflow:hidden;display:block;margin-bottom:2em}
+#skills > li {float:left;width:312px;margin-right:22px}
+#skills > li:last-child {margin-right:0}
+
+#statement {display:block;float:left;}
+
+.left_column {float:left;width:480px;}
+.right_column {float:right; width:480px;}
+footer {
+	clear: both;
+	width:980px;
+	height:32px;
+	margin:0 auto 0 33px;
+	background:rgba(1,1,1, 0.4);
+	position:fixed;
+	top:0;
+}

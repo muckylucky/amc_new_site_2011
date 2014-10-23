@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin
+Disallow: /Users
+Sitemap: http://www.amc21.co.uk

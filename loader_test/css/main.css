@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* Base Document*/
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure,  hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, q:before{content:open-quote;}
+blockquote:after, q:after {content:close-quote}
+blockquote, q {font-style:oblique;font-weight:bold;line-height:18px;margin-bottom:18px;text-align:center}
+a img {border:none}
+img {margin:0 0 18px 0}
+
+/*--------------------Base---------------------*/
+
+body {margin:0;padding:0;border:none;font:75%/1.5em Helvetica, Arial, sans-serif;overflow:auto;}
+html, body {height:100%}
+html > body {font-size:12px}
+a {text-decoration:none;font:100%/1.5em 'Droid Sans', serif;}
+p {font-size:1em;line-height:18px;font-family: 'Droid Sans', serif;color:#333;margin:0 0 18px 0;}
+p > a {text-decoration:none;color:#00a8cc}
+p > a:hover {text-decoration:underline;color:#00a8cc}
+p, ul ol {margin-bottom: 18px;}
+ul {margin:0;list-style-type:none}
+ul li {line-height:18px}
+h1, h2, h3, h4, h5 {font-family: 'Cuprum', arial, serif;font-weight:normal;color:#333}
+h1 {font-size:44px;letter-spacing:0px;line-height:54px;vertical-align:top;margin-bottom:18px;letter-spacing:-0.05em}
+h2 {font-size:36px;line-height:36px;margin-bottom:18px}
+h3 {text-transform:uppercase;line-height:18px;margin-bottom:0px}
+h4 {font-weight:bold}
+hr {display: block;position: relative;padding: 8px 0 10px 0;margin: 0 auto 18px;width: 100%;clear: both;border: none;font-size: 1px;line-height: 18px;overflow: visible;background:url(../images/shadow_rule.jpg) 50% 0 no-repeat;}
+blockquote {margin:0 1em 18px 1em;}
+
+.clear{clear:both}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+
+/*---------------------Forms-------------------*/
+label:after {content: ":";}
